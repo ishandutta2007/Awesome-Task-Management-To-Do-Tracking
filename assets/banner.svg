@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.85" />
+    </linearGradient>
+
+    <filter id="shadowFilter" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      fill: #94a3b8;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #cbd5e1;
+    }
+    .check-box {
+      animation: checkPulse 3s ease-in-out infinite alternate;
+    }
+    @keyframes checkPulse {
+      0% { transform: scale(1); opacity: 0.8; }
+      100% { transform: scale(1.05); opacity: 1; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      50% { transform: translateY(-15px) translateX(10px); opacity: 0.7; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    }
+    .floating-dot-1 { animation: floatParticle 6s ease-in-out infinite; }
+    .floating-dot-2 { animation: floatParticle 8s ease-in-out infinite 1s; }
+    .floating-dot-3 { animation: floatParticle 7s ease-in-out infinite 2s; }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="150" cy="80" r="140" fill="url(#accentGlow)" />
+  <circle cx="1050" cy="280" r="160" fill="url(#accentGlow)" />
+
+  <!-- Floating Dynamic Particles in Background -->
+  <circle class="floating-dot-1" cx="220" cy="290" r="5" fill="#38bdf8" />
+  <circle class="floating-dot-2" cx="980" cy="70" r="4" fill="#a855f7" />
+  <circle class="floating-dot-3" cx="1120" cy="180" r="6" fill="#3b82f6" />
+  <circle class="floating-dot-1" cx="100" cy="190" r="3" fill="#6366f1" />
+
+  <!-- Decorative Grid / Board Elements in Background -->
+  <g opacity="0.12" stroke="#64748b" stroke-width="1.2">
+    <line x1="0" y1="90" x2="1200" y2="90" stroke-dasharray="6,6" />
+    <line x1="0" y1="180" x2="1200" y2="180" stroke-dasharray="6,6" />
+    <line x1="0" y1="270" x2="1200" y2="270" stroke-dasharray="6,6" />
+    <line x1="300" y1="0" x2="300" y2="360" stroke-dasharray="6,6" />
+    <line x1="600" y1="0" x2="600" y2="360" stroke-dasharray="6,6" />
+    <line x1="900" y1="0" x2="900" y2="360" stroke-dasharray="6,6" />
+  </g>
+
+  <!-- Dynamic Progress Bar Indicator (Animated Width) -->
+  <g transform="translate(420, 290)">
+    <rect width="360" height="7" rx="3.5" fill="#1e293b" />
+    <rect width="280" height="7" rx="3.5" fill="url(#primaryGrad)">
+      <animate attributeName="width" values="180;340;260;300;180" dur="9s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Foreground Title and Content -->
+  <g id="foreground-content" transform="translate(0, 0)">
+    <!-- Top Pill / Badge -->
+    <g transform="translate(450, 42)">
+      <rect width="300" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <circle cx="20" cy="16" r="5" fill="#10b981">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="35" y="21" class="badge-label" fill="#94a3b8" font-size="12">CURATED LIST &amp; MARKET BENCHMARKS</text>
+    </g>
+
+    <!-- Main Title with Gradient Fill -->
+    <g transform="translate(600, 130)">
+      <text text-anchor="middle" class="title-text" fill="url(#primaryGrad)">
+        Awesome Task Management &amp; To-Do Tracking
+      </text>
+    </g>
+
+    <!-- Subtitle -->
+    <g transform="translate(600, 175)">
+      <text text-anchor="middle" class="subtitle-text">
+        Top Open-Source &amp; Commercial SaaS Platforms for Getting Things Done (GTD), Kanban &amp; Focus
+      </text>
+    </g>
+
+    <!-- Feature Tags / Pills -->
+    <g transform="translate(230, 218)">
+      <!-- Pill 1: Open-Source -->
+      <g transform="translate(0, 0)">
+        <rect width="165" height="36" rx="18" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" filter="url(#shadowFilter)" />
+        <path d="M 22 18 L 27 23 L 36 13" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <text x="46" y="23" class="badge-label" fill="#f1f5f9">Open-Source Core</text>
+      </g>
+
+      <!-- Pill 2: SaaS & Enterprise -->
+      <g transform="translate(185, 0)">
+        <rect width="185" height="36" rx="18" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1" filter="url(#shadowFilter)" />
+        <path d="M 22 18 L 27 23 L 36 13" fill="none" stroke="#818cf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <text x="46" y="23" class="badge-label" fill="#f1f5f9">SaaS &amp; Market Tiers</text>
+      </g>
+
+      <!-- Pill 3: GTD & Kanban -->
+      <g transform="translate(390, 0)">
+        <rect width="170" height="36" rx="18" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1" filter="url(#shadowFilter)" />
+        <path d="M 22 18 L 27 23 L 36 13" fill="none" stroke="#a855f7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <text x="46" y="23" class="badge-label" fill="#f1f5f9">GTD &amp; Kanban Boards</text>
+      </g>
+
+      <!-- Pill 4: Star Ranking -->
+      <g transform="translate(580, 0)">
+        <rect width="160" height="36" rx="18" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1" filter="url(#shadowFilter)" />
+        <polygon points="26,11 29,18 36,19 31,24 32,31 26,27 20,31 21,24 16,19 23,18" fill="#ec4899" />
+        <text x="44" y="23" class="badge-label" fill="#f1f5f9">Ranked by Stars</text>
+      </g>
+    </g>
+  </g>
+</svg>
