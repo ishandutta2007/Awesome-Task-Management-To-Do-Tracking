@@ -40,6 +40,7 @@
   - [13. OpenHabitTracker](#13-openhabittracker-)
 - [⚖️ Feature Comparison Matrix](#-feature-comparison-matrix)
 - [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -191,6 +192,19 @@ The open-source task management ecosystem provides data sovereignty, privacy, of
 ## 📈 Star History
 
 [![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Task-Management-To-Do-Tracking&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Task-Management-To-Do-Tracking&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this curated list! Maintaining and constantly updating this repository with accurate pricing models, feature matrices, and emerging open-source task management projects takes continuous time and care.
+
+If you find this project valuable, please consider supporting it through any of the following:
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** it with your developer friends, productivity circles, and teams.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your encouragement and support keep this initiative thriving! 🙌
 
 ---
 
