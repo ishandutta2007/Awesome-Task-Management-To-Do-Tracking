@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Task-Management-To-Do-Tracking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Task-Management-To-Do-Tracking?style=flat-square&logo=github" alt="GitHub stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Task-Management-To-Do-Tracking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Task-Management-To-Do-Tracking?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Task-Management-To-Do-Tracking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Task-Management-To-Do-Tracking?style=flat-square&logo=github" alt="GitHub forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Task-Management-To-Do-Tracking/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Task-Management-To-Do-Tracking?style=flat-square" alt="GitHub issues" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Task-Management-To-Do-Tracking/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
@@ -24,7 +24,7 @@
 ## 📑 Table of Contents
 - [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
-- [💻 Open-Source Software (Ranked by Stars ⭐)](#-open-source-software-ranked-by-stars-)
+- [💻 Open-Source Software (Ranked by GitHub_Stars ⭐)](#-open-source-software-ranked-by-stars-)
   - [1. AppFlowy](#1-appflowy-)
   - [2. Plane](#2-plane-)
   - [3. Focalboard](#3-focalboard-)
@@ -69,95 +69,95 @@ Below is the structured comparison of top commercial task management platforms, 
 
 ---
 
-## 💻 Open-Source Software (Ranked by Stars ⭐)
+## 💻 Open-Source Software (Ranked by GitHub_Stars ⭐)
 
 The open-source task management ecosystem provides data sovereignty, privacy, offline capabilities, and customizable self-hosted infrastructure. The tools below are **sorted in descending order by GitHub stargazers count**.
 
-### 1. AppFlowy [![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
+### 1. AppFlowy [![GitHub_Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
 - **Repository:** [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)
 - **Tech Stack:** Flutter / Rust | **License:** AGPL-3.0
 - **Overview:** Open-source Notion and task workspace alternative built with Flutter and Rust. Provides nested document pages, Kanban boards, database grid tables, checklist to-dos, and complete local-first data encryption.
 - **Key Features:** Offline-first architecture, customizable views, end-to-end encrypted cloud sync or self-hosted server, native desktop & mobile apps.
 - **Best For:** Users seeking an extensible Notion-style modular workspace for managing projects, notes, and task pipelines.
 
-### 2. Plane [![GitHub stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)
+### 2. Plane [![GitHub_Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)
 - **Repository:** [makeplane/plane](https://github.com/makeplane/plane)
 - **Tech Stack:** TypeScript / Next.js / Python / Django | **License:** AGPL-3.0
 - **Overview:** Modern open-source project management and issue-tracking platform designed as an extensible replacement for Jira, Linear, and Asana.
 - **Key Features:** Issues, Cycles (sprints), Modules (epics), Kanban, List, Calendar, and Spreadsheet views, analytics dashboard, Docker self-hosting.
 - **Best For:** Modern software engineering squads and product teams demanding high-velocity issue tracking and sprint planning.
 
-### 3. Focalboard [![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard)
+### 3. Focalboard [![GitHub_Stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard)
 - **Repository:** [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard)
 - **Tech Stack:** Go / TypeScript / React | **License:** MIT / Apache-2.0
 - **Overview:** Self-hosted open-source project and task management tool created by Mattermost, serving as an alternative to Trello, Notion, and Asana.
 - **Key Features:** Kanban boards, table, gallery, and calendar views, customizable card metadata, multi-user real-time collaboration, standalone or Mattermost-integrated.
 - **Best For:** Teams wanting a lightweight, visual, and self-hosted board system for team task workflows.
 
-### 4. Super Productivity [![GitHub stars](https://img.shields.io/github/stars/johannesjo/super-productivity?style=social&color=white)](https://github.com/johannesjo/super-productivity)
+### 4. Super Productivity [![GitHub_Stars](https://img.shields.io/github/stars/johannesjo/super-productivity?style=social&color=white)](https://github.com/johannesjo/super-productivity)
 - **Repository:** [johannesjo/super-productivity](https://github.com/johannesjo/super-productivity)
 - **Tech Stack:** Electron / Angular / TypeScript | **License:** MIT
 - **Overview:** Advanced personal task manager, daily planner, and integrated time tracker designed to replace TickTick, Toggl, and Trello with zero telemetry.
 - **Key Features:** Pomodoro timer, timeboxing, Eisenhower matrix, subtasks, metrics breakdowns, and direct two-way integrations with GitHub, GitLab, Jira, and OpenProject.
 - **Best For:** Developers, freelancers, and focus-driven workers wanting deep work scheduling coupled with code repository issue sync.
 
-### 5. Wekan [![GitHub stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan)
+### 5. Wekan [![GitHub_Stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan)
 - **Repository:** [wekan/wekan](https://github.com/wekan/wekan)
 - **Tech Stack:** Meteor / Node.js / MongoDB | **License:** MIT
 - **Overview:** Mature, highly customizable open-source collaborative Kanban board platform translated into over 50 languages and trusted worldwide.
 - **Key Features:** Multi-board swimlanes, custom fields, granular permissions, rule-based automations, Trello board import, LDAP/OIDC authentication.
 - **Best For:** Enterprise and self-hosted organizations seeking a battle-tested, privacy-respecting Trello alternative.
 
-### 6. Habitica [![GitHub stars](https://img.shields.io/github/stars/HabitRPG/habitica?style=social&color=white)](https://github.com/HabitRPG/habitica)
+### 6. Habitica [![GitHub_Stars](https://img.shields.io/github/stars/HabitRPG/habitica?style=social&color=white)](https://github.com/HabitRPG/habitica)
 - **Repository:** [HabitRPG/habitica](https://github.com/HabitRPG/habitica)
 - **Tech Stack:** JavaScript / Vue.js / Node.js / MongoDB | **License:** GPL-3.0
 - **Overview:** Gamified open-source task manager and habit tracker that turns your real-life to-do list into a role-playing game.
 - **Key Features:** Daily tasks, to-do lists, habit scoring, RPG progression (XP, Gold, equipment, pets, quests), community boss fights, and party collaboration.
 - **Best For:** People looking for fun, motivational gamification to overcome procrastination and build consistent routines.
 
-### 7. Planka [![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka)
+### 7. Planka [![GitHub_Stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka)
 - **Repository:** [plankanban/planka](https://github.com/plankanban/planka)
 - **Tech Stack:** React / Redux / Node.js / PostgreSQL | **License:** AGPL-3.0
 - **Overview:** Elegant, real-time Kanban board for workgroups and individuals focused on clarity and zero clutter.
 - **Key Features:** Real-time updates via WebSockets, markdown card descriptions, subtask checklists, label tagging, project boards, and OIDC single sign-on.
 - **Best For:** Small-to-medium teams looking for a clean, snappy, modern self-hosted Trello alternative.
 
-### 8. Gauzy [![GitHub stars](https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white)](https://github.com/ever-co/ever-gauzy)
+### 8. Gauzy [![GitHub_Stars](https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white)](https://github.com/ever-co/ever-gauzy)
 - **Repository:** [ever-co/ever-gauzy](https://github.com/ever-co/ever-gauzy)
 - **Tech Stack:** TypeScript / NestJS / Angular / TypeORM | **License:** Apache-2.0
 - **Overview:** Open-source enterprise resource planning, work management, and task tracking platform tailored for on-demand agencies and remote teams.
 - **Key Features:** Task prioritization, Kanban boards, employee time tracking, timesheets, project budgets, invoice generation, and client portals.
 - **Best For:** Agencies, consulting studios, and remote companies needing unified task and billing workflows.
 
-### 9. Todo.txt CLI [![GitHub stars](https://img.shields.io/github/stars/todotxt/todo.txt-cli?style=social&color=white)](https://github.com/todotxt/todo.txt-cli)
+### 9. Todo.txt CLI [![GitHub_Stars](https://img.shields.io/github/stars/todotxt/todo.txt-cli?style=social&color=white)](https://github.com/todotxt/todo.txt-cli)
 - **Repository:** [todotxt/todo.txt-cli](https://github.com/todotxt/todo.txt-cli)
 - **Tech Stack:** Shell / Bash | **License:** GPL-3.0
 - **Overview:** Minimalist, future-proof task management based on a simple plain text format (`todo.txt`) that outlives proprietary systems.
 - **Key Features:** Ultra-fast CLI interactions, `@context` and `+project` notations, priority flags `(A)`, completion markers, compatible with dozens of mobile/desktop GUI viewers.
 - **Best For:** Terminal power users, Unix purists, and minimalists who demand infinite longevity and zero lock-in.
 
-### 10. Taskwarrior [![GitHub stars](https://img.shields.io/github/stars/GothenburgBitFactory/taskwarrior?style=social&color=white)](https://github.com/GothenburgBitFactory/taskwarrior)
+### 10. Taskwarrior [![GitHub_Stars](https://img.shields.io/github/stars/GothenburgBitFactory/taskwarrior?style=social&color=white)](https://github.com/GothenburgBitFactory/taskwarrior)
 - **Repository:** [GothenburgBitFactory/taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior)
 - **Tech Stack:** C++ / Rust | **License:** MIT
 - **Overview:** Fast, sophisticated command-line task manager maintaining an interactive database of to-dos with advanced query logic.
 - **Key Features:** Automated urgency calculation, recurring tasks, rich filtering, tags, project hierarchies, interactive TUI clients, and taskserver sync.
 - **Best For:** Engineers and hackers who live in the terminal and manage hundreds of complex tasks with keyboard shortcuts.
 
-### 11. Vikunja [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja)
+### 11. Vikunja [![GitHub_Stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja)
 - **Repository:** [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)
 - **Tech Stack:** Go / Vue.js / TypeScript / SQLite / PostgreSQL | **License:** AGPL-3.0
 - **Overview:** Feature-complete open-source self-hosted alternative to Todoist and TickTick with clean UI and CalDAV synchronization.
 - **Key Features:** List, Kanban, Table, and Gantt timeline views, recurring intervals, reminders, subtasks, labels, CalDAV two-way sync, and easy migration importers.
 - **Best For:** Users seeking a self-hosted personal or collaborative Todoist replacement with native calendar sync.
 
-### 12. Tasks.org [![GitHub stars](https://img.shields.io/github/stars/tasks/tasks?style=social&color=white)](https://github.com/tasks/tasks)
+### 12. Tasks.org [![GitHub_Stars](https://img.shields.io/github/stars/tasks/tasks?style=social&color=white)](https://github.com/tasks/tasks)
 - **Repository:** [tasks/tasks](https://github.com/tasks/tasks)
 - **Tech Stack:** Kotlin / Android | **License:** GPL-3.0
 - **Overview:** Libre, privacy-first mobile task manager and to-do list for Android, forked from Astrid and actively developed with extensive sync options.
 - **Key Features:** CalDAV, Google Tasks, and Nextcloud synchronization, location-based reminders, tag hierarchies, home-screen widgets, and timer integration.
 - **Best For:** Android users who value open-source privacy and need location-based reminders synced via CalDAV or Nextcloud.
 
-### 13. OpenHabitTracker [![GitHub stars](https://img.shields.io/github/stars/Jinjinov/OpenHabitTracker?style=social&color=white)](https://github.com/Jinjinov/OpenHabitTracker)
+### 13. OpenHabitTracker [![GitHub_Stars](https://img.shields.io/github/stars/Jinjinov/OpenHabitTracker?style=social&color=white)](https://github.com/Jinjinov/OpenHabitTracker)
 - **Repository:** [Jinjinov/OpenHabitTracker](https://github.com/Jinjinov/OpenHabitTracker)
 - **Tech Stack:** C# / .NET MAUI | **License:** GPL-3.0
 - **Overview:** Calmer, offline-first alternative to Habitica that eliminates gamification penalties, ads, and required account registrations.
